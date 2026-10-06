@@ -1,0 +1,24 @@
+TARGET_COLUMN = "is_fraud"
+
+CARD_NUM_COLUMN = "cc_num"
+TRANSACTION_ID_COLUMN = "trans_num"
+TIMESTAMP_COLUMN = "trans_date_trans_time"
+
+AMOUNT_COLUMN = "amt"
+CLIENT_LOCATION_LAT_COLUMN = "lat"
+CLIENT_LOCATION_LON_COLUMN = "long"
+CLIENT_LOCATION_CITY_POP_COLUMN = "city_pop"
+MERCHANT_LOCATION_LAT_COLUMN = "merch_lat"
+MERCHANT_LOCATION_LON_COLUMN = "merch_long"
+
+MERCHANT_COLUMN = "merchant"
+PAYMENT_CATEGORY_COLUMN = "category"
+CLIENT_GENDER_COLUMN = "gender"
+CLIENT_LOCATION_STATE_COLUMN = "state"
+CLIENT_JOB_COLUMN = "job"
+
+DISTANCE_FEATURE = "distance_km"
+CARD_TRANSACTION_COUNT_FEATURE = "card_transaction_count"
+CARD_FRAUD_COUNT_FEATURE = "card_fraud_count"
+CARD_FRAUD_RATE_FEATURE = "card_fraud_rate"
+CARD_AVG_AMOUNT_FEATURE = "card_avg_amount"
