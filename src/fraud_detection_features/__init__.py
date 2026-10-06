@@ -1,2 +1,1 @@
-def main() -> None:
-    print("Hello from fraud-detection-features!")
+"""Feature engineering utilities for fraud detection."""
