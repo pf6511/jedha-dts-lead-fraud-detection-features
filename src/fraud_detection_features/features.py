@@ -111,6 +111,7 @@ def build_inference_features(
 ) -> pd.DataFrame:
     """
     Build features for a single real-time transaction.
+    Add features to existing columns
 
     Parameters
     ----------
